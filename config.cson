@@ -1,0 +1,39 @@
+"*":
+  editor:
+    fontFamily: "Ricty"
+    showIndentGuide: true
+    softWrap: true
+    useHardwareAcceleration: true
+    invisibles: {}
+    zoomFontWhenCtrlScrolling: true
+    showInvisibles: true
+    autoIndentOnPaste: false
+    scrollPastEnd: true
+    fontSize: 20
+    autoIndent: false
+  core:
+    themes: [
+      "seti-ui"
+      "railscast-theme"
+    ]
+    disabledPackages: [
+      "wrap-guide"
+      "welcome"
+      "whitespace"
+      "metrics"
+      "term2"
+      "git-diff-details"
+    ]
+    audioBeep: false
+  "exception-reporting":
+    userId: "a71b9e58-f23f-67a6-a101-20ff6cb18084"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "4b76de9449e924b0950d4657d02aec1b8e312e07"
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+  minimap:
+    plugins:
+      "git-diff": true
+      bookmarks: true
